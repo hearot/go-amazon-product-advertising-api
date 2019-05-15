@@ -212,6 +212,7 @@ type OfferListing struct {
 	ID                              string `xml:"OfferListingId"`
 	AmountSaved                     Price
 	Price                           Price
+	SalePrice                       Price
 	Availability                    string
 	AvailabilityAttributes          AvailabilityAttributes
 	IsEligibleForSuperSaverShipping bool
