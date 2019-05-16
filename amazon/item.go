@@ -215,8 +215,8 @@ type OfferListing struct {
 	SalePrice                       Price
 	Availability                    string
 	AvailabilityAttributes          AvailabilityAttributes
-	IsEligibleForSuperSaverShipping bool
-	IsEligibleForPrime              bool
+	IsEligibleForSuperSaverShipping int
+	IsEligibleForPrime              int
 }
 
 // AvailabilityAttributes represents AvailabilityAttributes
